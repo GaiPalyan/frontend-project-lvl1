@@ -1,0 +1,38 @@
+{
+  "name": "@hexlet/code",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/GaiPalyan/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/GaiPalyan/frontend-project-lvl1/actions)",
+  "main": "index.js",
+  "bin": {
+    "code": "bin/brain-games.js"
+  },
+  "scripts": {
+    "test": "npx jest --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaiPalyan/frontend-project-lvl1.git"
+  },
+  "author": "Gai Palyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaiPalyan/frontend-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/GaiPalyan/frontend-project-lvl1#readme",
+  "dependencies": {
+    "debug": "^4.3.3",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@jest/globals": "^27.5.1",
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.1.0",
+    "jest": "^27.5.1",
+    "jest-cli": "^27.5.1",
+    "npm-check-updates": "^12.3.0",
+    "simple-git-hooks": "^2.7.0"
+  }
+}
