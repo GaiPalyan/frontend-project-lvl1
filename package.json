@@ -5,7 +5,10 @@
   "description": "[![Actions Status](https://github.com/GaiPalyan/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/GaiPalyan/frontend-project-lvl1/actions)",
   "main": "index.js",
   "bin": {
-    "code": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js"
+  },
+  "simple-git-hooks": {
+    "pre-push": "make lint"
   },
   "scripts": {
     "test": "npx jest --bail"
