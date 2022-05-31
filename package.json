@@ -25,7 +25,8 @@
   "homepage": "https://github.com/GaiPalyan/frontend-project-lvl1#readme",
   "dependencies": {
     "debug": "^4.3.3",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "@jest/globals": "^27.5.1",
