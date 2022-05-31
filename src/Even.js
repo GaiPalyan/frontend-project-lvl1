@@ -9,7 +9,7 @@ const getResponse = (userName) => {
   const rounds = 3;
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
-  for (let i = 0; i < rounds; i++) {
+  for (let i = 0; i < rounds; i + 1) {
     const number = getRandomNumber(startRange, endRange);
     console.log(`Question: ${number}`);
     const userAnswer = readlineSync.question('Your answer: ');
