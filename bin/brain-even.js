@@ -1,8 +1,5 @@
 #!/usr/bin/env node
 
-import readlineSync from 'readline-sync';
-import Even from '../src/Even.js';
+import run from '../src/even.js';
 
-const name = readlineSync.question('May I have your name?: ');
-
-Even(name);
+run();
