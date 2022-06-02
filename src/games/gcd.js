@@ -15,5 +15,4 @@ const getGameData = () => {
   return [correctAnswer, `${num1} ${num2}`];
 };
 
-const run = () => engine(description, getGameData);
-export { run };
+export default () => engine(description, getGameData);
