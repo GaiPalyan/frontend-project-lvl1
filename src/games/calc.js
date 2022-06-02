@@ -1,11 +1,10 @@
-import engine from './index.js';
+import engine from '../index.js';
+import getRandomNumber from '../helpers.js';
 
 const description = 'What is the result of the expression?';
 const startRange = 1;
 const endRange = 30;
 const operators = ['+', '-', '*'];
-
-const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 
 const getExpressionResult = (firstOperand, operator, secondOperand) => {
   switch (operator) {
