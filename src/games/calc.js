@@ -24,10 +24,10 @@ const getGameData = () => {
   const secondOperand = getRandomNumber(startRange, endRange);
   const operator = operators[Math.floor(Math.random() * operators.length)];
 
-  const gameQuestion = `${firstOperand} ${operator} ${secondOperand}`;
+  const gameQuestion = [firstOperand, operator, secondOperand].join(' ');
   const correctAnswer = getExpressionResult(firstOperand, operator, secondOperand);
 
-  return [correctAnswer.toString(), gameQuestion];
+  return [correctAnswer, gameQuestion];
 };
 
 export default () => engine(description, getGameData);
