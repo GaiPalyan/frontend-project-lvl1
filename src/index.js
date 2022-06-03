@@ -19,5 +19,5 @@ export default (description, gameData) => {
     }
     console.log('Correct!');
   }
-  console.log(`Congratulations, ${userName}`);
+  console.log(`Congratulations, ${userName}!`);
 };
