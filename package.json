@@ -9,7 +9,8 @@
     "brain-gcd": "bin/brain-gcd.js",
     "brain-calc": "bin/brain-calc.js",
     "brain-even": "bin/brain-even.js",
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-prime": "bin/brain-prime.js"
   },
   "simple-git-hooks": {
     "pre-push": "make lint"
